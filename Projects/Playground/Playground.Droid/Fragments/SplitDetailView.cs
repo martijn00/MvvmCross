@@ -12,8 +12,9 @@ using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Platforms.Android.Binding.BindingContext;
 using MvvmCross.Platforms.Android.Presenters.Attributes;
 using Playground.Core.ViewModels;
+using Playground.Droid.Activities;
 
-namespace Playground.Droid.Views
+namespace Playground.Droid.Fragments
 {
     [MvxFragmentPresentation(typeof(SplitRootViewModel), Resource.Id.split_content_frame)]
     [Register(nameof(SplitDetailView))]
